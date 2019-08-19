@@ -1,9 +1,66 @@
-div {
+/* div {
   width: 150px;
   height: 150px;
   float: left;
   text-align: center;
+} */
+
+body {
+  width: 480px;
+  margin: auto;
+  grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+  grid-template-columns: 240px 240px;
+  text-align: center;
 }
+
+/* nav {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  line-height: 75px;
+}
+
+aside {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  line-height: 150px;
+} */
+
+/* .largeCard {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  line-height: 125px;
+}
+
+.smallCard {
+  line-height: 250px;
+} */
+
+/* #footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  line-height: 80px;
+} */
+
+/* .float {
+  width: 150px;
+  height: 150px;
+  float: left;
+  text-align: center; 
+} */
+
+/* .clear {
+  clear: both;
+  margin: -2px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  text-align: center;
+} */
 
 p {
   position: relative;
@@ -64,9 +121,27 @@ body {
 @media(min-width: 767px) {
   body {
     width: 960px;
-    height: 768px;
+    /* height: 768px; */
     margin: auto;
+    display: inline-grid;
+    grid-template-rows: 100px 200px 250px 150px;
+    grid-template-columns: 200px 190px 190px 190px 190px;
+    text-align: center;
   }
+
+  /* nav {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    line-height: 100px;
+  }
+
+  aside {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    line-height: 600px;
+  } */
 
   #a {
     width: 960px;
